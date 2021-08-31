@@ -1,0 +1,539 @@
+:root {
+    --bg-dark:  #030303;
+    --dark-red: #710707;
+    --font-gold: #9d8665;
+    --font1: 80px;
+    --font2: 32px;
+
+    --font-white: #ffffff;
+    --font-thin: 100;
+    --font-light: 300;
+  }
+
+
+  .section-title {
+    font-size: var(--font1);
+    color: var(--font-gold);
+  }
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+.section{
+padding-top: 75px;
+padding-bottom: 75px;
+}
+
+
+.dark-section{
+  background-color: var(--bg-dark);
+}
+
+.video-section{
+    padding-top: 90px;
+
+}
+
+.container{
+    margin:0 auto;
+    max-width: 1440px;
+    width:calc(100%-40px);
+}
+
+.header{
+  width:100%;
+  height: 50px;
+  color: var(--bg-dark);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logimg {
+  width: 49px;
+  height: 26px;
+}
+
+.logoText {
+  font-family: Forum;
+  font-style: normal;
+font-weight: normal;
+   size: 28px;
+   font-size: 28px;
+line-height: 50px;
+   color: #ffffff;
+   margin-left: 21px;
+   letter-spacing: 5px;
+text-transform: uppercase;
+}
+
+ul {
+    max-width: 720px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 22px;
+line-height: 50px;
+letter-spacing: 2px;
+color: #ffffff;
+  }
+
+  .marginR {
+    margin-right: 70px;
+  }
+
+  .visitinMarg {
+    margin-right: 77px;
+  }
+
+h1 {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 0;
+margin-top:140px;
+}
+
+.descriptionLouvre {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 33px;
+letter-spacing: 2px;
+color: #FFFFFF;
+}
+
+
+
+
+.buttonText {
+    cursor: pointer;
+    color: var(--font-white);
+    width: 360px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: var(--dark-red);
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 200;
+    letter-spacing: 1.83px;
+    transition: background-color .4s;
+    border: 0;
+}
+
+
+
+
+  html {
+      scroll-behavior: smooth;
+  }
+
+
+
+  .welcome {
+    background-position: calc(100% - 20px) calc(100% - 10px);
+    background-image: url("assets/img/background.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    height: 700px;
+
+  }
+
+  .vurtualTitle {
+  font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: var(--font-gold);
+position: relative;
+  }
+
+
+.videoTitle {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--font-gold);
+  position: relative;
+}
+
+
+
+  .vurtualTitle::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background:#710707;
+  }
+
+
+  hr {
+    width: 1440px;
+height: 3px;
+left: 0px;
+top: 10px;
+background: #710707;
+border-radius: 0px;
+  }
+
+
+  .descriptionTour{
+    font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 35px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #000000;
+position: relative;
+  }
+
+
+  .descriptionTour::after {
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 2px;
+    background-color: var(--dark-red);
+    transition: width .4s;
+  }
+
+  .cart:hover .descriptionTour::after {
+    width: 100%;
+  }
+
+  .little {
+width: 300px;
+height: 2px;
+left: 0px;
+top: 354px;
+background: #710707;
+border-radius: 0px;
+  }
+
+  .virtourPanarama {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+  }
+
+
+  .cartblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+
+  .videoDescr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .videoDescrP {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 38px;
+color: #000000;
+  }
+
+  .cart {
+    display: block;
+  }
+
+
+  .pictureTitle {
+    font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #FFFFFF;
+position: absolute;
+margin:0;
+  }
+
+
+  .pictureTitle::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background:#710707;
+  }
+
+
+  .descriptionPicture{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: justify;
+position: relative;
+margin: 150px 20px 0 0 ;
+
+  }
+
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+  }
+
+  .flexFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  span {
+color:var(--font-gold);
+  }
+
+  .coloumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .buttonPlay {
+    background-image: url(./assets/svg/big-play-button.svg);
+    background-color: transparent;
+    position: absolute;
+    top: 205px;
+    left: calc(50% - 110px);
+    width: 220px;
+    height: 220px;
+    border: none;
+    cursor: pointer;
+    transition: transform .4s;
+  }
+
+
+  .videoCon {
+    height: 865px;
+  }
+
+  /* .videoImg {
+    position: absolute;
+    z-index: -1;
+  } */
+
+
+  .buttons{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    background-color: var(--bg-dark);
+  }
+
+  .progress {
+    background: linear-gradient(to right, #24809E 0%, #24809E 40%, #fff 40%, #fff 100%);
+  border: solid 2px #24809E;
+  height: 8px;
+  width: 820px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+  }
+
+  .soundpro {
+    background: linear-gradient(to right, #24809E 0%, #24809E 40%, #fff 40%, #fff 100%);
+    border: solid 2px #24809E;
+    height: 8px;
+    width: 155px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+  }
+
+
+
+  .buyTicketTitle {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+  }
+
+
+  .buyTicketTitle::after {
+        content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background:#710707;
+  }
+
+
+  .flexBuyT{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+  }
+
+
+
+  .tickBuyTitle{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+color: #FFFFFF;
+  }
+
+
+  .labelTicket{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .labelbot {
+    margin: 35px;
+  }
+
+  .ticketType {
+    margin-bottom: 300px;
+  }
+
+  .ticketAmount {
+    margin-bottom: 250px;
+  }
+
+  .inputGap {
+    margin-bottom: 49px;
+  }
+
+  .flexBut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .buyTicket {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border: 2px solid;
+    text-transform: capitalize;
+    color: #000000;
+    line-height: 27px;
+    width: 175px;
+    height: 50px;
+    font-family: Roboto;
+font-style: normal;
+font-size: 22px;
+letter-spacing: 2px;
+color: #000000;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+padding-left: 40px;
+  }
+
+  .buyTicket:hover {
+    border: 2px solid;
+    cursor: auto;
+    background-color:  #710707;
+  }
+
+  .nameMus{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+  }
+
+  .address {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+margin: 5px;
+
+  }
+  .adressName {
+    margin-bottom: 450px;
+  }
+  @media (max-width: 1024px) {
+    :root {
+      --font1: 50px;
+      --font2: 28px;
+    }
